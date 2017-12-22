@@ -8,7 +8,7 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>server</artifactId>
+    <artifactId>mirta-server</artifactId>
 
     <properties>
         <main.basedir>${project.parent.basedir}</main.basedir>
@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.mirta.cms</groupId>
-            <artifactId>client</artifactId>
+            <artifactId>mirta-web</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
@@ -50,7 +50,6 @@
     </dependencies>
 
     <build>
-        <finalName>mirta-cms</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

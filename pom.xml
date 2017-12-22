@@ -36,8 +36,8 @@
     </properties>
 
     <modules>
-        <module>client</module>
-        <module>server</module>
+        <module>mirta-web</module>
+        <module>mirta-server</module>
     </modules>
 
 </project>
